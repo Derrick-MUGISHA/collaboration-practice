@@ -1,3 +1,2 @@
-these is the first push on GitHub using git
-
-know we are able to push these is the second time pushing 
+Before anyone starts coding, the team discusses the project structure and divides the work into different tasks. Participants can choose or receive a task based on the area they want to practice. Each task should be small enough for one person or a small group to complete while still contributing to the larger project.
+For example, one participant might receive the task of creating the navigation menu. Another might create the mobile navigation. Someone else might build the hero section. Another participant could create the project cards, while another works on the project details page. Other participants could work on buttons, forms, modals, authentication screens, dashboard components, API services, validation, documentation, testing, or responsive behavior.
