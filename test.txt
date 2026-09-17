@@ -1,3 +1,1 @@
-these is the first push on GitHub using git
-
-know we are able to push these is the second time pushing 
+For example, five students might work on the landing page. One student could work on the hero section, another on the features section, another on testimonials, another on the call-to-action section, and another on making the entire landing page responsive. At the same time, another group could work on the dashboard, with different students responsible for the sidebar, header, statistics cards, tables, and profile components. Another group could work on authentication, while another group works on projects, events, or the contact system.
