@@ -1,5 +1,32 @@
 Before anyone starts coding, the team discusses the project structure and divides the work into different tasks. Participants can choose or receive a task based on the area they want to practice. Each task should be small enough for one person or a small group to complete while still contributing to the larger project.
 For example, one participant might receive the task of creating the navigation menu. Another might create the mobile navigation. Someone else might build the hero section. Another participant could create the project cards, while another works on the project details page. Other participants could work on buttons, forms, modals, authentication screens, dashboard components, API services, validation, documentation, testing, or responsive behavior.
+This process can happen several times. A Pull Request is not simply a way to submit code. It is a place where developers communicate about the code before it becomes part of the shared project.
+As more Pull Requests are opened, the team will begin to experience another important part of Git collaboration: keeping branches synchronized with the project.
+Imagine that Participant 1 started working on the navigation in the morning. While they were working, Participants 2, 3, 4, and 5 completed their tasks and their Pull Requests were merged into main. The project has now changed since Participant 1 created their branch.
+When a participant reaches a useful point in their work, they can create a Git commit. The commit records a specific point in the project's history. Participants should use meaningful commit messages so that other developers can understand what was changed.
+A participant might write:
+feat: add project card component
+Another might write:
+feat: create login form
+Another might write:
+fix: improve mobile navigation
+Another might write:
+style: update dashboard spacing
+The branch names should clearly describe the work being performed so that other team members can understand what each branch is for.
+Once a participant has created their branch, they begin implementing their task. They should first understand the existing code before changing it. They should look at the project's folder structure, existing components, naming conventions, and design system. If another participant has already created a reusable component that can be used, they should consider reusing it instead of creating a completely different version.
+As participants work, they should regularly check their changes and test their work. They should avoid making unrelated changes to the project. If a participant is assigned to create a project card, for example, they should not suddenly rewrite the authentication system without discussing it with the team.
+ 
+After selecting a task, participants do not immediately start working on the main branch. Instead, everyone creates their own feature branch. The branch represents the participant's workspace for a particular task.
+A participant working on the navigation might create:
+feature/navigation
+Someone working on the project cards might create:
+feature/project-cards
+Someone working on authentication might create:
+feature/login-form
+Another participant working on responsive design might create:
+fix/mobile-navigation
+The important part of this activity is that everyone is working on one shared project. Students are not simply creating separate projects and submitting them individually. They are practicing how a real development team can coordinate many contributions inside one codebase.
+At the beginning of the activity, the facilitator creates a GitHub repository for the project and gives everyone access to it. The repository becomes the central place where the team stores and manages the project. Each participant clones the repository to their own computer and prepares their development environment.
 For example , five students might work on the landing page. One student could work on the hero section, another on the features section, another on testimonials, another on the call-to-action section, and another on making the entire landing page responsive. At the same time, another group could work on the dashboard, with different students responsible for the sidebar, header, statistics cards, tables, and profile components. Another group could work on authentication, while another group works on projects, events, or the contact system.
 Imagine that our class has been hired as a software development team to build a modern website for a student technology community. The project will be developed by more than 25 participants, with everyone contributing to the same GitHub repository. Because there are many developers working on the project at the same time, the team needs a clear collaboration process to make sure that everyone's work can be developed, reviewed, and combined without creating unnecessary problems.
 The project will contain many different parts. There will be a landing page, navigation, hero section, about section, services section, projects section, events section, courses section, testimonials, team members, contact section, authentication pages, dashboard pages, profile pages, reusable components, responsive layouts, forms, API integration, and other supporting features. Since there are more participants than major sections, some sections will have several students working on different parts of the same feature.
