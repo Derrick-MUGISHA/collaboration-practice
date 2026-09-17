@@ -1,3 +1,10 @@
-these is the first push on GitHub using git
-
-know we are able to push these is the second time pushing 
+ 
+After selecting a task, participants do not immediately start working on the main branch. Instead, everyone creates their own feature branch. The branch represents the participant's workspace for a particular task.
+A participant working on the navigation might create:
+feature/navigation
+Someone working on the project cards might create:
+feature/project-cards
+Someone working on authentication might create:
+feature/login-form
+Another participant working on responsive design might create:
+fix/mobile-navigation
