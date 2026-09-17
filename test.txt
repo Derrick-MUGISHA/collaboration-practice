@@ -1,3 +1,9 @@
-these is the first push on GitHub using git
-
-know we are able to push these is the second time pushing 
+When a participant reaches a useful point in their work, they can create a Git commit. The commit records a specific point in the project's history. Participants should use meaningful commit messages so that other developers can understand what was changed.
+A participant might write:
+feat: add project card component
+Another might write:
+feat: create login form
+Another might write:
+fix: improve mobile navigation
+Another might write:
+style: update dashboard spacing
