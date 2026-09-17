@@ -1,3 +1,6 @@
+The branch names should clearly describe the work being performed so that other team members can understand what each branch is for.
+Once a participant has created their branch, they begin implementing their task. They should first understand the existing code before changing it. They should look at the project's folder structure, existing components, naming conventions, and design system. If another participant has already created a reusable component that can be used, they should consider reusing it instead of creating a completely different version.
+As participants work, they should regularly check their changes and test their work. They should avoid making unrelated changes to the project. If a participant is assigned to create a project card, for example, they should not suddenly rewrite the authentication system without discussing it with the team.
  
 After selecting a task, participants do not immediately start working on the main branch. Instead, everyone creates their own feature branch. The branch represents the participant's workspace for a particular task.
 A participant working on the navigation might create:
