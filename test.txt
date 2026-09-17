@@ -1,3 +1,13 @@
+ 
+After selecting a task, participants do not immediately start working on the main branch. Instead, everyone creates their own feature branch. The branch represents the participant's workspace for a particular task.
+A participant working on the navigation might create:
+feature/navigation
+Someone working on the project cards might create:
+feature/project-cards
+Someone working on authentication might create:
+feature/login-form
+Another participant working on responsive design might create:
+fix/mobile-navigation
 The important part of this activity is that everyone is working on one shared project. Students are not simply creating separate projects and submitting them individually. They are practicing how a real development team can coordinate many contributions inside one codebase.
 At the beginning of the activity, the facilitator creates a GitHub repository for the project and gives everyone access to it. The repository becomes the central place where the team stores and manages the project. Each participant clones the repository to their own computer and prepares their development environment.
 For example , five students might work on the landing page. One student could work on the hero section, another on the features section, another on testimonials, another on the call-to-action section, and another on making the entire landing page responsive. At the same time, another group could work on the dashboard, with different students responsible for the sidebar, header, statistics cards, tables, and profile components. Another group could work on authentication, while another group works on projects, events, or the contact system.
