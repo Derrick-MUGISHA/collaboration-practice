@@ -1,3 +1,3 @@
-these is the first push on GitHub using git
-
-know we are able to push these is the second time pushing 
+This process can happen several times. A Pull Request is not simply a way to submit code. It is a place where developers communicate about the code before it becomes part of the shared project.
+As more Pull Requests are opened, the team will begin to experience another important part of Git collaboration: keeping branches synchronized with the project.
+Imagine that Participant 1 started working on the navigation in the morning. While they were working, Participants 2, 3, 4, and 5 completed their tasks and their Pull Requests were merged into main. The project has now changed since Participant 1 created their branch.
