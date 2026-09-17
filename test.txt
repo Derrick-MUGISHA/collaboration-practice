@@ -1,3 +1,6 @@
-these is the first push on GitHub using git
-
-know we are able to push these is the second time pushing 
+After committing their changes, participants push their branches to GitHub. Their work is now available to the rest of the team, but it is still separate from the stable main branch.
+The participant then creates a Pull Request. The Pull Request tells the rest of the team, "I have completed this piece of work and I would like you to review it before it becomes part of the main project."
+This is where collaboration becomes important.
+With more than 25 participants, everyone will not review their own work. Participants will be paired or placed into small review groups. For example, Participant 1 may review Participant 8's Pull Request, Participant 8 may review Participant 15's Pull Request, and Participant 15 may review Participant 1's Pull Request. This gives everyone an opportunity to practice both writing code and reviewing code.
+During the review, the reviewer looks at the changes and asks practical questions. Does the feature work? Is the code understandable? Does it follow the project's structure? Does it work on different screen sizes? Are there unnecessary changes? Could an existing component be reused? Are there obvious bugs? Does the implementation match the requirements?
+The reviewer can leave comments directly on the Pull Request. The developer then reads the feedback and makes any necessary changes on their branch. They create another commit and push it to GitHub. The Pull Request automatically updates, allowing the reviewer to check the new version.
