@@ -1,3 +1,2 @@
-these is the first push on GitHub using git
-
-know we are able to push these is the second time pushing 
+The important part of this activity is that everyone is working on one shared project. Students are not simply creating separate projects and submitting them individually. They are practicing how a real development team can coordinate many contributions inside one codebase.
+At the beginning of the activity, the facilitator creates a GitHub repository for the project and gives everyone access to it. The repository becomes the central place where the team stores and manages the project. Each participant clones the repository to their own computer and prepares their development environment.
